@@ -4,6 +4,7 @@ import Indexrand from './component/randomcolor/Index'
 import Star from './component/stars/Star'
 import Slider from './component/imageslider/Slider'
 import Load from './component/load-more-data/Load'
+import Modaltest from './component/modals/Modaltest'
 const App = () => {
 // setInterval(()=>{
   
@@ -31,12 +32,13 @@ const App = () => {
 
   return (
     <div>
-<h1>hii</h1>
-      <Index/>
+<h1></h1>
+       {/* <Index/>
       <Indexrand/>
       <Star numofstar= {10}/>
-       {/* <Slider  />  */}
-<Load/>
+       <Slider  />  
+<Load/>  */}
+<Modaltest/>
 
 
     </div>
